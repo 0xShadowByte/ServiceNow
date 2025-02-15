@@ -13,8 +13,9 @@ To leverage ServiceNow’s cloud-based automation and workflow management capabi
 
 ## Content
 - Navigating the Service Portal
-- Creating a Portal
-- Creating a Page
+- Hands-on Project 1: Creating and testing out the Portal
+- Hands-on Project 2: Creating a Page and setting it up as the Active Portal
+- Hands-on Project 3: Add Widgets and Set Options
 
 # Navigating the Service Portal
 
@@ -101,3 +102,12 @@ Add a row with a 3-column, equally sized columns layout to the second. Add a row
 ![image](https://github.com/user-attachments/assets/2f9ec044-c9e5-4fa2-9d06-e9ae6548c07e)
 
 ![image](https://github.com/user-attachments/assets/c71cb120-87f2-463d-a98a-1230bc74816f)
+
+# Hands-on Project 3: Add Widgets and Set Options
+
+*Ref 15 : Add Widgets to the Page*
+
+Add a *Homepage Search* widget to the first container on the page. In the widgets lists, locate the *Homepage Search* widget. Drag the Homepage Search widget to the first conatiner. When the container row turns grey, drop the widget. 
+
+![image](https://github.com/user-attachments/assets/c92f8f18-b63c-42c0-952c-db0a8ee98610)
+
