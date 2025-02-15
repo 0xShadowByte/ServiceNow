@@ -21,6 +21,7 @@ A portal is a ServiceNow user interface (UI), built using the Service Portal fra
 - Hands-on Project 5: Set Portal Homepage
 - Hands-on Project 6: Hiding and Showing Containers
 - Hands-on Project 7: Add a Role to a Widget
+- Hands-on Project 8: Change Portal Branding
 
 # Navigating the Service Portal
 
@@ -265,3 +266,22 @@ In the widgets list, locate the Approvals widget. Drag the *Approvals* widget an
 
 ![image](https://github.com/user-attachments/assets/73487f71-6912-4426-85d7-69dc3ae3cfe5)
 
+*Ref 47-50: Add a Role to the Approvals Widget*
+
+Service Portal > Service Portal Configuration. Click the Page Editor tile on the Service Portal Configuration page. Use the *Select Page*... field to open the Portal Meum Homepage page for edit. In the tree, locate *pm_index>Portal Meum Homepage - Container 4 > Row 1 < Column 3 < Instance 2.* Click the Instance 2 widget instance in the tree. In the *Roles* field, type manager. Scrole to the bottom of the page and click the save button.
+
+![image](https://github.com/user-attachments/assets/437fcc32-4d05-4081-8310-77cfc42348a6)
+
+![image](https://github.com/user-attachments/assets/c2b3eb0d-94bc-4577-a7db-d17ede9183ad)
+
+![image](https://github.com/user-attachments/assets/547a4d50-825c-4d3b-8812-564944edf02e)
+
+![image](https://github.com/user-attachments/assets/1154ea00-4e2a-41da-9d8b-bc9a745194df)
+
+# Hands-on Project 8: Change Portal Branding
+
+*Ref 51: Change the Portal Logo*
+
+Click the Branding Editor tile on the Service Portal Configuration page. In Branding Editor, select Portal Meum from the choice list. To change the log, select the Quick Setup tab. Find a new log ot use with the portal. Click the Upload an image button. Use the file browser to navigate to the image file of your choice. Click the Open or OK button. Use the *Logo Padding* sliders to chagne the padding around the log (*left:* 10, *Top:* 4). Examine the Theme preview. 
+
+![image](https://github.com/user-attachments/assets/ed3cfa53-4723-4e4e-934d-31d2061fb05e)
