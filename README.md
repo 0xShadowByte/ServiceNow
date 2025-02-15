@@ -16,6 +16,7 @@ To leverage ServiceNow’s cloud-based automation and workflow management capabi
 - Hands-on Project 1: Creating and testing out the Portal
 - Hands-on Project 2: Creating a Page and setting it up as the Active Portal
 - Hands-on Project 3: Add Widgets and Set Options
+- Hands-on Project 4: Set Options for the Icon Link Widgets
 
 # Navigating the Service Portal
 
@@ -105,9 +106,40 @@ Add a row with a 3-column, equally sized columns layout to the second. Add a row
 
 # Hands-on Project 3: Add Widgets and Set Options
 
-*Ref 15 : Add Widgets to the Page*
+*Ref 15-16: Add Widgets to the Page*
 
 Add a *Homepage Search* widget to the first container on the page. In the widgets lists, locate the *Homepage Search* widget. Drag the Homepage Search widget to the first conatiner. When the container row turns grey, drop the widget. 
 
+Add widgets to the page by dragging them from the widgets list to the columns. Most of the columns contain a single widge, one of the columns contain two widgets. (Icon Link x3, Simple List, Cool Clock, Report Organization Chart)
+
 ![image](https://github.com/user-attachments/assets/c92f8f18-b63c-42c0-952c-db0a8ee98610)
 
+![image](https://github.com/user-attachments/assets/b538dacb-0b44-4447-ab62-91e91da37eb8)
+
+*Ref 17-18: Set the Homepage Search Widget Options*
+
+Click anywhere in the *Homepage Search* widget to select it. Examine the banner to make suer the widget is selected. Click the Edit Options button in the banner *or* in the widget. Configure the *Homepage Widget* options. (*Title:* We are happy to see you here!)
+
+Click save and the *Homepage Search* widget should have the title.
+
+![image](https://github.com/user-attachments/assets/7851d870-d32f-4d22-8f59-8997176502e5)
+
+![image](https://github.com/user-attachments/assets/ad67dd13-1437-4644-84a2-3916b4996c60)
+
+# Hands-on Project 4: Set Options for the Icon Link Widgets
+
+*Ref 19: Preparation*
+
+In a new browser window or tab, open the baseline portal by adding /sp to the end of your instance URL.
+
+![image](https://github.com/user-attachments/assets/67c2c272-510b-4312-809a-25fa4b1fe547)
+
+*Ref 20: Container Properties*
+
+ServiceNow has created CSS to give *Icon Link* widgets an attractive appearance. Select the second container on the *Portal Meum Homepage* page that contains three *Icon Link* widgets. Click the Edit Options button for the container and configure the container with (*Screen reader title:* Quick Links to order something, access the Knowledge Base, and get help; *Parent class:* homepage-quicklinks) Tip: make sure you're clicking on the column and not the widget.
+
+![image](https://github.com/user-attachments/assets/45db0925-e899-4f20-a5f5-8a2336a43af8)
+
+*Ref 21: Configure the Order Something Icon Link Widget*
+
+Click the first (leftmost) Icon Link widget to select it. Click the Edit Options button (on the widget or in the banner). Configure the *Order Something* widget (*Type:* Page, *Page:* sc_home, *Title:* Order Something, *Short Description:* Browse the catalog for services and items avaliable to you, *Bootstrap color:* Primary, *Glyph:* usd, *Template:* Top Icon
