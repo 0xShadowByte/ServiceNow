@@ -18,6 +18,7 @@ A portal is a ServiceNow user interface (UI), built using the Service Portal fra
 - Hands-on Project 3: Add Widgets and Set Options
 - Hands-on Project 4: Set Options the Widgets
 - Hands-on Project 5: Set Portal Homepage
+- Hands-on Project 6: Hiding and Showing Containers
 
 # Navigating the Service Portal
 
@@ -129,6 +130,8 @@ Click save and the *Homepage Search* widget should have the title.
 
 # Hands-on Project 4: Set Options for the Widgets
 
+### Steps
+
 *Ref 19: Preparation*
 
 In a new browser window or tab, open the baseline portal by adding /sp to the end of your instance URL.
@@ -192,6 +195,8 @@ Click the Report widget to select it. Click the Edit Options button. Configure t
 
 # Hands-on Project 5: Set Portal Homepage
 
+### Steps
+
 *Ref 33-35: Set the Portal Homepage*
 
 In the page Designer click the Edit portal properties button. Change the *Homepage* field value to pm_index then click save. Test the new configuration by entering the url https://https://dev242095.service-now.com/pm.
@@ -202,4 +207,27 @@ In the page Designer click the Edit portal properties button. Change the *Homepa
 
 ![image](https://github.com/user-attachments/assets/6b7f66b8-7a2c-497b-890c-6cfde0d4180d)
 
+# Hands-on Project 6: Hiding and Showing Containers
+
+### Steps
+
+*Ref 36-37: Add a Container and Typehead Widget to the Page*
+
+Drag a new container to the page. Place the new container between the container with the *Homepage Search* widget and the container with the *Icon Link* widgets. Add a row with a single column spanning all 12 grid columns to the first container by dragging the 12 row form the *Layouts* to the new container. Add a Typeahead Search widget to the new row.
+
+![image](https://github.com/user-attachments/assets/527a17d6-276b-4836-97ec-94bbbbd77490)
+
+![image](https://github.com/user-attachments/assets/1d42c18a-9d7c-4265-85d8-b8aa7bd45327)
+
+*Ref 38: Configure Container Properties - Typeahead Search Container*
+
+Click the container for the *Typehead Search* widget to select it. Click the Edit Options button in the banner to open the container options dialog. Configure the container options. (*Parent class:* visible-xs, *Move to header:* Selected (checked)). Click Save
+
+![image](https://github.com/user-attachments/assets/aae09c99-3212-429f-bf46-85bd390fe7ab)
+
+*Ref 39: Configure Container Properties - Homepage Search Container*
+
+Click the container for the *Homepage Search* widget to select it. Click the Edit Options button in the banner to open the *container options* dialoog. Configure the container options (*Parent class:* hidden-xs). Click Save.
+
+![image](https://github.com/user-attachments/assets/280b4e5a-3f05-4695-8c08-4280ce190f15)
 
