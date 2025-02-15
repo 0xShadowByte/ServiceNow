@@ -2,11 +2,11 @@
 
 ## Objective
 
-To leverage ServiceNow’s cloud-based automation and workflow management capabilities to enhance IT service delivery, streamline business operations, and improve overall efficiency.
+A portal is a ServiceNow user interface (UI), built using the Service Portal framework, which provides an alternative user experience to the standard UI. It is an intuitive way for users to interact with the underlying Now Platform using a minimum number of clicks from any device: desktop, tablet, or smartphone.
 
 ## Skills Learned
 - Learned how to navigate the Service Portal
-- Creating a portal
+- Creating and managing a portal
 
 ## Tools Used
 - ServiceNow
@@ -16,7 +16,8 @@ To leverage ServiceNow’s cloud-based automation and workflow management capabi
 - Hands-on Project 1: Creating and testing out the Portal
 - Hands-on Project 2: Creating a Page and setting it up as the Active Portal
 - Hands-on Project 3: Add Widgets and Set Options
-- Hands-on Project 4: Set Options for the Icon Link Widgets
+- Hands-on Project 4: Set Options the Widgets
+- Hands-on Project 5: Set Portal Homepage
 
 # Navigating the Service Portal
 
@@ -126,7 +127,7 @@ Click save and the *Homepage Search* widget should have the title.
 
 ![image](https://github.com/user-attachments/assets/ad67dd13-1437-4644-84a2-3916b4996c60)
 
-# Hands-on Project 4: Set Options for the Icon Link Widgets
+# Hands-on Project 4: Set Options for the Widgets
 
 *Ref 19: Preparation*
 
@@ -140,6 +141,65 @@ ServiceNow has created CSS to give *Icon Link* widgets an attractive appearance.
 
 ![image](https://github.com/user-attachments/assets/45db0925-e899-4f20-a5f5-8a2336a43af8)
 
-*Ref 21: Configure the Order Something Icon Link Widget*
+*Ref 21-22: Configure the Order Something Icon Link Widget*
 
 Click the first (leftmost) Icon Link widget to select it. Click the Edit Options button (on the widget or in the banner). Configure the *Order Something* widget (*Type:* Page, *Page:* sc_home, *Title:* Order Something, *Short Description:* Browse the catalog for services and items avaliable to you, *Bootstrap color:* Primary, *Glyph:* usd, *Template:* Top Icon
+
+![image](https://github.com/user-attachments/assets/ab94cbb4-4c64-4d54-a487-7c8c0e31ffea)
+
+![image](https://github.com/user-attachments/assets/183d3683-dbef-4a61-a4c5-e8db21716829)
+
+*Ref 23-24: Configure the Knowledge Base Icon Link Widget*
+
+Click the second (middle) Icon Link widget to select it. Click the Edit Options button (on the widget or in the banner). Configure the *Knowledge Base* widget (*Type:* KB Category, *KB Category:* Policies, *Page:* kb_category, *Title:* Knowledge Base, *Short description:* Look for answers to your questions about corporate processes and policies, *Bootstrap color:* Primary, *Glyph:* eye, and *Template:* Color Box. Then click save.
+
+![image](https://github.com/user-attachments/assets/93fc3032-71f8-430a-ad03-0d0943a85f66)
+
+![image](https://github.com/user-attachments/assets/df6048df-5627-4026-8b4b-4a3ccb4b922a)
+
+*Ref 25-26: Configure the Get Help Icon Link Widget*
+
+Click the third (right) Icon Link widget to select it. Click the Eidt options button (on the widget or in the banner). Configure the *Get Help* widget (*Type:* Catalog Category, *Catalog category:* Can we help you?, *Page:* sc_category, *Title:* Get Help, *Short description:* Contact the support team for assitance with technical questions, *Bootstrap color:* Danger, *Glyph:* Wrench, and *Template:* Circle Icon.
+
+![image](https://github.com/user-attachments/assets/3d6e26cb-d9fb-4b0c-a9d4-3f0d4946971a)
+
+![image](https://github.com/user-attachments/assets/faec6553-7b23-4c5e-a787-190e016cdec3)
+
+*Ref 27-28: Set Options for the Simple List Widget*
+
+Click the Simple List widget to select it. Click the Edit Options button. Configure the *Simple List* widget to display active *Incident* records opened by the currently logged in user (Table: Incident [incident], Filter: paste in the query you copied in the Preparation section of this Exercise, Display field: Short description, Secondary fields: Number and Updated (after selection, the fields will be listed as number and sys_updated_on), Link to this page: ticket, Show even when empty: Selected (checked), Glyph:
+list (fa-list), Maximum entries: 7).
+
+![image](https://github.com/user-attachments/assets/91dd2b61-998d-4e2a-ae76-73ce77585894)
+
+![image](https://github.com/user-attachments/assets/5f306196-bfca-4200-b05a-a2f418b20494)
+
+*Ref 29-20: Configure the Cool Clock Widget*
+
+Click the Cool Clook widget to select it. Click the Edit Options button. Configure the *Cool Clock* widget (*Time Zone:* Leave at the default value of America/Los_Angeles, *Title:* Time at ServiceNow Headquarters in Santa Clara, California, *Second hand color:* #FFA500). Click save.
+
+![image](https://github.com/user-attachments/assets/2c5533e6-7d49-4b13-b94f-471951f94120)
+
+![image](https://github.com/user-attachments/assets/069b2beb-25c8-4b4f-b542-60a6d2af7fd1)
+
+*Ref 31-32: Configure the Report Widget*
+
+Click the Report widget to select it. Click the Edit Options button. Configure the *Report* widget (*Report:* All incidents by Category, *Show title:* Selected (checked)). Click Save.
+
+![image](https://github.com/user-attachments/assets/6f2d27a7-e2fa-41aa-b26b-f70fd65a1cc0)
+
+![image](https://github.com/user-attachments/assets/3fbf850d-3100-4494-84a6-d3be817e07d1)
+
+# Hands-on Project 5: Set Portal Homepage
+
+*Ref 33-35: Set the Portal Homepage*
+
+In the page Designer click the Edit portal properties button. Change the *Homepage* field value to pm_index then click save. Test the new configuration by entering the url https://https://dev242095.service-now.com/pm.
+
+![image](https://github.com/user-attachments/assets/43888530-787c-4bcf-a895-a7a8ade7e6b9)
+
+![image](https://github.com/user-attachments/assets/8d89e4ce-dbd2-4556-973a-6a36aefb9a28)
+
+![image](https://github.com/user-attachments/assets/6b7f66b8-7a2c-497b-890c-6cfde0d4180d)
+
+
