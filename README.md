@@ -7,6 +7,8 @@ A portal is a ServiceNow user interface (UI), built using the Service Portal fra
 ## Skills Learned
 - Learned how to navigate the Service Portal
 - Creating and managing a portal
+- Use Page Designer to create portal pages
+- Use Branding Editor to chagne logos and themes
 
 ## Tools Used
 - ServiceNow
