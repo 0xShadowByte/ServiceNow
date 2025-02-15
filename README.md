@@ -14,6 +14,7 @@ To leverage ServiceNow’s cloud-based automation and workflow management capabi
 ## Content
 - Navigating the Service Portal
 - Creating a Portal
+- Creating a Page
 
 # Navigating the Service Portal
 
@@ -58,3 +59,44 @@ Add an icon to the portal. In the *Icon* field, click the Upload an Image button
 In a new browser tab or window, open Portal Meum. Examine Portal Meum. It should have the rocket logo in the banner, rocket icon as part of the tab title, the text *Portal Meum* should be in the tab name and the banner and other page elements are blue.
 
 ![image](https://github.com/user-attachments/assets/7303b193-d02a-4ccb-a4d1-66c00c100b4a)
+
+# Creating a Page and setting it up as the Active Portal
+
+### Steps
+
+*Ref 8-10: Creat a Page*
+
+Click the Designer tile on the Service Portal Configuration page. 
+
+Click the Add a new page link
+
+Configure the page with *Page title:* Portal Meum Homepage  and *Page ID:* pm_index then click submit.
+
+![image](https://github.com/user-attachments/assets/9c8dcf4a-c7dc-41e0-9458-b68382c09c33)
+
+![image](https://github.com/user-attachments/assets/f3a8058f-6f4f-4e7c-8d93-e677ad87f4f0)
+
+![image](https://github.com/user-attachments/assets/127c84aa-ee04-4665-846f-1b201e694d71)
+
+*Ref 9-10: Set Portal Meum as the Active Portal*
+
+Examine the Service Portal Designer header to see which portal is active. If Portal Meum (pm) is not the active portal, click on the portal name to select a new portal. Click Portal Meum to select it as the active portal. Example the Service Portal Designer header again to see which portal is active. You should see pm as the active portal. 
+
+![image](https://github.com/user-attachments/assets/77e63feb-84db-4461-9401-8f7d7bc94385)
+
+![image](https://github.com/user-attachments/assets/9b6e4668-d8ad-4da1-820a-1997b0c6265c)
+
+*Ref 11- : Add Containers and Rows to the Page*
+
+The default page layout includes one container. Add two more containers to the page by dragging a container form the *Layouts* to the page.
+
+Add a row with a single column spanning all 12 grid columns. Drag the 12 layout item from the *Layouts* to the first container.
+
+Add a row with a 3-column, equally sized columns layout to the second. Add a row with a 3-column, unequally sized column layout to the thrid container. (shortcut is to click on the "+" in the container to add the columns)
+
+![image](https://github.com/user-attachments/assets/b6e4a459-b46c-4769-add1-5f3becf422fb)
+
+![image](https://github.com/user-attachments/assets/8a511a36-42bd-4a1a-8815-8ae0863636c8)
+
+![image](https://github.com/user-attachments/assets/2f9ec044-c9e5-4fa2-9d06-e9ae6548c07e)
+
