@@ -20,6 +20,7 @@ A portal is a ServiceNow user interface (UI), built using the Service Portal fra
 - Hands-on Project 4: Set Options the Widgets
 - Hands-on Project 5: Set Portal Homepage
 - Hands-on Project 6: Hiding and Showing Containers
+- Hands-on Project 7: Add a Role to a Widget
 
 # Navigating the Service Portal
 
@@ -231,4 +232,36 @@ Click the container for the *Typehead Search* widget to select it. Click the Edi
 Click the container for the *Homepage Search* widget to select it. Click the Edit Options button in the banner to open the *container options* dialoog. Configure the container options (*Parent class:* hidden-xs). Click Save.
 
 ![image](https://github.com/user-attachments/assets/280b4e5a-3f05-4695-8c08-4280ce190f15)
+
+# Hands-on Project 7: Add a Role to a Widget
+
+Preparation: Your ogranization wants to grat managers the roles they need to approve or reject requests and to manage reports. In this section, you will create a *manager* role and associate the *approver_user* and *report_admin* roles to the new manager role.
+
+*Ref 40-44: Create the *manager* role
+
+In the main ServiceNow browser window, use the *All* menu to open User Administration > Roles. Click the New button and configure the new role (*Name:* manager , *description:* Role given to all supervisors and managers). Open the Additional actions menu and select the Save menu item. 
+
+Add roles to the *manager* role. In the *Contains Roles* related list, click the Edit... button. Use the *Collection Search* field to find the approver_user role. Click once on the approver_user role to select it, then click the Add button to move the role to the *Contains Role List*. Use what you''ve learned to add the report_admin role to the *Contains Role List*. Click the save button
+
+Give Fred Luddy the *manager* role. Use the *All* menu to open User Administration > Users. Open the record with the *User ID* fred.luddy. Scroll to the *Roles* section, click the Edit... button and use the *Collection Search* field to find the manager role. Click once on the manager role to select it, then click Add button to give the role to Fred Luddy and click save.
+
+![image](https://github.com/user-attachments/assets/bc9719cf-eb98-4753-b1b7-bc1e71ebe5d3)
+
+![image](https://github.com/user-attachments/assets/a3d7d7d6-a763-4242-b5a9-42f8d9fc1d18)
+
+![image](https://github.com/user-attachments/assets/dd84132f-715b-48c7-ba79-feb45f963d5b)
+
+![image](https://github.com/user-attachments/assets/5b995e7c-e37c-448f-a497-d956c2edd743)
+
+![image](https://github.com/user-attachments/assets/d33cee64-9c57-413a-a42b-94f529ccfe28)
+
+### Steps
+
+*Ref 45-46: Add the Approvals Widget to the Portal Meum Homepage*
+
+In the widgets list, locate the Approvals widget. Drag the *Approvals* widget and drop it below the *Simple List* widget. Click the Edit button to configure the *Approvals* widget options (*Glyph:* check-sqare-o (fa-check-square-o) , *Buttons stacked side by side:* Selected (checked)). Click save.
+
+![image](https://github.com/user-attachments/assets/2a032d61-9cae-4045-a71f-0e75ecd592e3)
+
+![image](https://github.com/user-attachments/assets/73487f71-6912-4426-85d7-69dc3ae3cfe5)
 
