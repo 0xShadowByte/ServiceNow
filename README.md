@@ -10,6 +10,7 @@ A portal is a ServiceNow user interface (UI), built using the Service Portal fra
 
 ## Tools Used
 - ServiceNow
+- https://dev242095.service-now.com/pm
 
 ## Content
 - Navigating the Service Portal
